@@ -1,0 +1,195 @@
+body{
+    height: 3000px;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 1px 1px 5px rgb(191, 191, 191);
+    background-color: white;
+    z-index: 1;
+}
+.title{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-family: "Passero One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(65, 65, 249);
+    font-size: 23px;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+.middle{
+    display: flex;
+    flex: 1;
+}
+.right{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.searchbar{
+    flex: 1;
+    max-width: 400px;
+    border: 1px solid rgb(207, 207, 207);
+    padding-left: 15px;
+    height: 30px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    box-shadow: 1px 1px 1px rgb(200, 200, 200);
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    background-color: #fff;
+    border: 1px solid rgb(207, 207, 207);
+    border-left: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 1px 1px 1px rgb(200, 200, 200);
+    cursor: pointer;
+}
+.search:hover{
+    background-color: rgb(239, 239, 239);
+    box-shadow: 1px 1px 1px rgb(172, 172, 172);
+    border-color: rgb(165, 165, 165);
+}
+.searchbar:hover{
+    border-color: rgb(165, 165, 165);
+}
+.searchbar::placeholder{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.searchicon{
+    width: 12px;
+}
+.login{
+    margin-right: 5px;
+    border-radius: 3px;
+    border: 1px solid rgb(34, 87, 233);
+    color: rgb(34, 87, 233);
+    background-color: none;
+    padding: 2px 4px 2px 4px;
+    transition: 0.20s;
+    cursor: pointer;
+    background-color: white;
+}
+.login:hover{
+    background-color: rgb(34, 87, 233);
+    color: white;
+    box-shadow: 1px 1px 3px rgb(52, 103, 244);
+}
+
+.signup{
+    margin-right: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(10, 205, 27);
+    color: white;
+    padding: 3px 5px 3px 5px;
+    transform: 0.20s;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.signup:hover{
+    opacity: 0.8;
+    box-shadow: 1px 1px 3px rgb(20, 255, 40);
+}
+.container{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.jobprovider,.jobseeker,.explorer{
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: 1px 1px 5px rgb(198, 198, 198);
+    height: 410px;
+    transition: 0.20s;
+}
+.jobproimg,.jobseekimg,.explimg{
+    width: 220px;
+}
+.heading{
+    margin: 0;
+    padding-left: 5px;
+    font-family: "Roboto Condensed",verdana,sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: black;
+}
+.matter{
+    font-size: 14px;
+    line-height: 17px;
+    font-family: verdana;
+    color: rgb(88, 88, 88);
+    margin-top: 10px;
+    padding-left: 5px;
+    width: 190px;
+}
+.jobprovider:hover,.jobseeker:hover,.explorer:hover{
+    opacity: 0.85;
+    box-shadow:
+    2px 2px 8px rgb(148, 148, 148);
+}
+.tipsmatter{
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: verdana;
+    color: rgb(88, 88, 88);
+    flex: 1;
+    padding-right: 10px;
+}
+.tips{
+    display: flex;
+    margin-left: 54px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px grey;
+    margin-right: 54px;
+    margin-bottom: 40px;
+}
+.matterheading{
+    font-family: "Roboto Condensed",verdana,sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: black;
+    font-size: 20px;
+}
+.tipsimg{
+    width: 250px;
+    object-fit: cover;
+}
+.tipsheading{
+    margin: 0;
+    padding-left: 54px;
+    font-weight: 600;
+    font-size: 25px;
+    color: black;
+    font-family: "Roboto Condensed",verdana,sans-serif;
+}
+.contact{
+    font-size: 20px;
+    font-family: "Roboto Condensed",sans-serif;
+}
+
+
